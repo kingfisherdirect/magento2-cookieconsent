@@ -1,0 +1,12 @@
+<config>
+    <default>
+        <dev>
+            <js>
+                <minify_exclude>
+                    <cookieconsent-config>KingfisherDirect_CookieConsent/js/cookieconsent.config.js</cookieconsent-config>
+                    <cookieconsent>KingfisherDirect_CookieConsent/js/cookieconsent.esm.js</cookieconsent>
+                </minify_exclude>
+            </js>
+        </dev>
+    </default>
+</config>
