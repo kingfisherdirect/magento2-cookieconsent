@@ -1,0 +1,9 @@
+<?php
+/** @var \Magento\Framework\View\Element\AbstractBlock $block */
+
+$staticFilePath = $block->getViewFileUrl('KingfisherDirect_CookieConsent::js/cookieconsent-init.js');
+$cssPath = $block->getViewFileUrl('KingfisherDirect_CookieConsent::css/cookieconsent.css');
+?>
+
+<link rel="stylesheet" href="<?= /** @noEscape */ $cssPath; ?>">
+<script type="module" src="<?= /** @noEscape */ $staticFilePath; ?>"></script>

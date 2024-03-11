@@ -1,0 +1,28 @@
+{
+    "name": "kingfisherdirect/magento2-cookieconsent",
+    "type": "magento2-module",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "KingfisherDirect\\CookieConsent\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Kamil",
+            "email": "kamil@kingfisherdirect.co.uk"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "post-package-install": [
+            "npm install"
+        ],
+        "post-package-update": [
+            "npm install"
+        ]
+    }
+}
