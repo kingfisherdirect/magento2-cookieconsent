@@ -5,5 +5,5 @@ $staticFilePath = $block->getViewFileUrl('KingfisherDirect_CookieConsent::js/coo
 $cssPath = $block->getViewFileUrl('KingfisherDirect_CookieConsent::css/cookieconsent.css');
 ?>
 
-<link rel="stylesheet" href="<?= /** @noEscape */ $cssPath; ?>">
-<script type="module" src="<?= /** @noEscape */ $staticFilePath; ?>"></script>
+<link rel='preload' href='<?= /** @noEscape */ $cssPath; ?>' as='style' onload='this.onload=null;this.rel="stylesheet"' fetchpriority="low" />
+<script type="module" fetchpriority="low" src="<?= /** @noEscape */ $staticFilePath; ?>"></script>
