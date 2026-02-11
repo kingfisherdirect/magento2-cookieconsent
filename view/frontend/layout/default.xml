@@ -7,6 +7,6 @@
         </referenceContainer>
 
         <referenceBlock name="cookie_notices" remove="true" />
-        <referenceBlock name="cookie_config" remove="true" />
+
     </body>
 </page>
